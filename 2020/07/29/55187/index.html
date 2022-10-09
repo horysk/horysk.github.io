@@ -191,16 +191,16 @@
 <p>生成业务网络定义（Business Network Definition – BND）<br>$ yo hyperledger-composer:businessnetwork</p>
 <p>显示更多<br>参数 businessnetwork 来自于之前安装的 generator-hyperledger-composer，表示了一组对应的模板文件。可以在 ~/.nvm/versions/node/v8.11.1/lib/node_modules/generator-hyperledger-composer/generators/businessnetwork/templates/ 下找到即将生成的内容的模板。</p>
 <p>运行会提示输入相关信息，为方便学习，建议 Business network name 定义为：tutorial-network；Namespace 定义为：org.example.biznet，其他信息可以自行决定内容。将定义的内容如下：</p>
-<p>Business network name: tutorial-network<br>Description: The first blockchain network<br>Author name: Alice<br>Author email: <a href="mailto:&#x61;&#108;&#105;&#99;&#x65;&#x40;&#x6f;&#x72;&#103;&#x2e;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#x62;&#105;&#x7a;&#110;&#x65;&#x74;">&#x61;&#108;&#105;&#99;&#x65;&#x40;&#x6f;&#x72;&#103;&#x2e;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#x62;&#105;&#x7a;&#110;&#x65;&#x74;</a><br>License: Apache-2.0<br>Namespace: org.example.biznet</p>
+<p>Business network name: tutorial-network<br>Description: The first blockchain network<br>Author name: Alice<br>Author email: <a href="mailto:&#x61;&#108;&#x69;&#x63;&#101;&#64;&#x6f;&#114;&#103;&#46;&#x65;&#120;&#97;&#109;&#x70;&#108;&#101;&#46;&#x62;&#105;&#x7a;&#x6e;&#x65;&#x74;">&#x61;&#108;&#x69;&#x63;&#101;&#64;&#x6f;&#114;&#103;&#46;&#x65;&#120;&#97;&#109;&#x70;&#108;&#101;&#46;&#x62;&#105;&#x7a;&#x6e;&#x65;&#x74;</a><br>License: Apache-2.0<br>Namespace: org.example.biznet</p>
 <p>显示更多<br>执行成功后，在当前 ~/fabric-tools/ 目录下，新增了一个目录 tutorial-network, 里面有 index.js, package.json 等文件，以及 lib, models 两个目录，这就是将要部署的区块链业务网络定义。</p>
 <p>进入 tutorial-network 目录<br>$ cd ~/fabric-tools/tutorial-network</p>
 <p>显示更多<br>后续的操作基本都在此目录下完成。</p>
 <p>生成 .bna 文件<br>$ composer archive create -t dir -n .</p>
-<p>显示更多<br>执行成功后，在当前目录下会产生一个新文件 <a href="mailto:&#x74;&#117;&#x74;&#x6f;&#114;&#x69;&#97;&#x6c;&#x2d;&#x6e;&#x65;&#116;&#x77;&#x6f;&#114;&#x6b;&#64;&#x30;&#x2e;&#x30;&#x2e;&#x31;&#x2e;&#x62;&#110;&#x61;">&#x74;&#117;&#x74;&#x6f;&#114;&#x69;&#97;&#x6c;&#x2d;&#x6e;&#x65;&#116;&#x77;&#x6f;&#114;&#x6b;&#64;&#x30;&#x2e;&#x30;&#x2e;&#x31;&#x2e;&#x62;&#110;&#x61;</a>，即是 tutorial-network 目录下文件的压缩包。解压后发现其中主要有文件及目录：lib/，models/，package.json，permissions.acl。我们会在以后详细解释、操作这些文件。</p>
+<p>显示更多<br>执行成功后，在当前目录下会产生一个新文件 <a href="mailto:&#x74;&#117;&#116;&#x6f;&#x72;&#x69;&#x61;&#x6c;&#45;&#110;&#x65;&#x74;&#119;&#111;&#114;&#x6b;&#64;&#x30;&#x2e;&#x30;&#46;&#x31;&#x2e;&#x62;&#x6e;&#x61;">&#x74;&#117;&#116;&#x6f;&#x72;&#x69;&#x61;&#x6c;&#45;&#110;&#x65;&#x74;&#119;&#111;&#114;&#x6b;&#64;&#x30;&#x2e;&#x30;&#46;&#x31;&#x2e;&#x62;&#x6e;&#x61;</a>，即是 tutorial-network 目录下文件的压缩包。解压后发现其中主要有文件及目录：lib/，models/，package.json，permissions.acl。我们会在以后详细解释、操作这些文件。</p>
 <p>部署及启动业务网络<br>这是第一个示例区块链网络安装部署的最后一部分内容了。</p>
-<p>部署示例业务网络 tutorial-network<br>$ composer network install –card PeerAdmin@hlfv1 –archiveFile <a href="mailto:&#x74;&#117;&#116;&#111;&#x72;&#x69;&#x61;&#108;&#x2d;&#110;&#101;&#116;&#x77;&#x6f;&#x72;&#x6b;&#64;&#48;&#46;&#48;&#x2e;&#49;&#46;&#98;&#110;&#x61;">&#x74;&#117;&#116;&#111;&#x72;&#x69;&#x61;&#108;&#x2d;&#110;&#101;&#116;&#x77;&#x6f;&#x72;&#x6b;&#64;&#48;&#46;&#48;&#x2e;&#49;&#46;&#98;&#110;&#x61;</a></p>
+<p>部署示例业务网络 tutorial-network<br>$ composer network install –card PeerAdmin@hlfv1 –archiveFile <a href="mailto:&#x74;&#x75;&#x74;&#111;&#114;&#105;&#x61;&#108;&#x2d;&#110;&#101;&#x74;&#119;&#x6f;&#114;&#x6b;&#x40;&#x30;&#46;&#48;&#46;&#49;&#x2e;&#98;&#x6e;&#97;">&#x74;&#x75;&#x74;&#111;&#114;&#105;&#x61;&#108;&#x2d;&#110;&#101;&#x74;&#119;&#x6f;&#114;&#x6b;&#x40;&#x30;&#46;&#48;&#46;&#49;&#x2e;&#98;&#x6e;&#97;</a></p>
 <p>显示更多<br>或者</p>
-<p>$ composer network install –c PeerAdmin@hlfv1 –a <a href="mailto:&#116;&#x75;&#x74;&#x6f;&#114;&#x69;&#97;&#x6c;&#45;&#110;&#101;&#116;&#x77;&#x6f;&#114;&#107;&#x40;&#48;&#x2e;&#48;&#46;&#x31;&#x2e;&#98;&#x6e;&#97;">&#116;&#x75;&#x74;&#x6f;&#114;&#x69;&#97;&#x6c;&#45;&#110;&#101;&#116;&#x77;&#x6f;&#114;&#107;&#x40;&#48;&#x2e;&#48;&#46;&#x31;&#x2e;&#98;&#x6e;&#97;</a></p>
+<p>$ composer network install –c PeerAdmin@hlfv1 –a <a href="mailto:&#x74;&#117;&#116;&#111;&#x72;&#x69;&#97;&#108;&#x2d;&#110;&#101;&#x74;&#x77;&#111;&#x72;&#x6b;&#x40;&#48;&#46;&#x30;&#x2e;&#49;&#46;&#x62;&#x6e;&#x61;">&#x74;&#117;&#116;&#111;&#x72;&#x69;&#97;&#108;&#x2d;&#110;&#101;&#x74;&#x77;&#111;&#x72;&#x6b;&#x40;&#48;&#46;&#x30;&#x2e;&#49;&#46;&#x62;&#x6e;&#x61;</a></p>
 <p>显示更多<br>“composer network install” 命令会部署指定的 .bna 文件到 Fabric 网络。.bna 文件包括了这个业务网络的 Assets 模型、交易事务逻辑、访问控制规则等定义，但它并不能直接在 Fabric 上运行。.bna 文件是由 Composer 生成的，它是用 Composer 提供支持的一系列建模语言、规范定义的业务网络定义，我们必须将它先安装在 Fabric Peer 节点上。然后才可以在这个节点上启动运行这个业务网络。</p>
 <p>参数 -c (–card) 应指定为在上一步骤中生成 PeerAdmin Card 文件。</p>
 <p>参数 -a (–archiveFile) 应指定为将要部署的业务网络文件包。</p>
@@ -370,7 +370,7 @@
     <div class="outer">
         <div class="inner">
             Powered by <a href="http://prowiki.demopage.icu/" target="_blank">ProWiki</a>
-            &copy;2020 HORYSK<br>
+            &copy;2022 HORYSK<br>
             <a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">粤ICP备6896438749号</a>
         </div>
     </div>

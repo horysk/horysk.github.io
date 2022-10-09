@@ -236,7 +236,7 @@ sudo systemctl start vncserver@1.service
 sudo systemctl status vncserver@1.service
 
 </code></pre>
-<p>● <a href="mailto:&#118;&#x6e;&#x63;&#x73;&#x65;&#x72;&#x76;&#x65;&#114;&#x40;&#49;&#x2e;&#x73;&#x65;&#114;&#118;&#105;&#x63;&#x65;">&#118;&#x6e;&#x63;&#x73;&#x65;&#x72;&#x76;&#x65;&#114;&#x40;&#49;&#x2e;&#x73;&#x65;&#114;&#118;&#105;&#x63;&#x65;</a> - Remote desktop service (VNC)<br>   Loaded: loaded (/etc/systemd/system/vncserver@.service; indirect; vendor preset: enabled)<br>   Active: active (running) since Thu 2018-08-16 19:05:54 UTC; 4s ago<br>  Process: 9893 ExecStartPre=/bin/sh -c /usr/bin/vncserver -kill :1 &gt; /dev/null 2&gt;&amp;1 || : (code=exited, status=0/SUCCESS)<br> Main PID: 9900 (vncserver)<br>    Tasks: 0 (limit: 507)<br>   CGroup: /system.slice/system-vncserver.slice/vncserver@1.service<br>           ‣ 9900 /usr/bin/perl /usr/bin/vncserver :1 -geometry 1440x900 -alwaysshared -fg</p>
+<p>● <a href="mailto:&#x76;&#x6e;&#99;&#115;&#101;&#114;&#x76;&#x65;&#114;&#x40;&#x31;&#46;&#x73;&#101;&#x72;&#x76;&#x69;&#99;&#101;">&#x76;&#x6e;&#99;&#115;&#101;&#114;&#x76;&#x65;&#114;&#x40;&#x31;&#46;&#x73;&#101;&#x72;&#x76;&#x69;&#99;&#101;</a> - Remote desktop service (VNC)<br>   Loaded: loaded (/etc/systemd/system/vncserver@.service; indirect; vendor preset: enabled)<br>   Active: active (running) since Thu 2018-08-16 19:05:54 UTC; 4s ago<br>  Process: 9893 ExecStartPre=/bin/sh -c /usr/bin/vncserver -kill :1 &gt; /dev/null 2&gt;&amp;1 || : (code=exited, status=0/SUCCESS)<br> Main PID: 9900 (vncserver)<br>    Tasks: 0 (limit: 507)<br>   CGroup: /system.slice/system-vncserver.slice/vncserver@1.service<br>           ‣ 9900 /usr/bin/perl /usr/bin/vncserver :1 -geometry 1440x900 -alwaysshared -fg</p>
 <p>连接到 VNC 服务器</p>
 <p>VNC 不是加密协议，可以进行数据包嗅探。建议的方法是创建一个 SSH 隧道，该隧道将安全地将来自本地计算机的端口 5901 上的流量转发到同一端口上的服务器。</p>
 <p>在 Linux 和 macOS 上设置 SSH 隧道</p>
@@ -333,7 +333,7 @@ ssh -L 5901:127.0.0.1:5901 -N -f -l username server_ip_address
     <div class="outer">
         <div class="inner">
             Powered by <a href="http://prowiki.demopage.icu/" target="_blank">ProWiki</a>
-            &copy;2020 HORYSK<br>
+            &copy;2022 HORYSK<br>
             <a target="_blank" rel="noopener" href="http://beian.miit.gov.cn/">粤ICP备6896438749号</a>
         </div>
     </div>
