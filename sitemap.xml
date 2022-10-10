@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.hory-ai.com/2022/10/10/1665361743/</loc>
+    
+    <lastmod>2022-10-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.hory-ai.com/2022/10/09/1665313618/</loc>
     
     <lastmod>2022-10-09</lastmod>
@@ -268,14 +275,14 @@
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/source/github-card/index.html</loc>
+    <loc>http://www.hory-ai.com/github-card/index.html</loc>
     
     <lastmod>2020-07-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/github-card/index.html</loc>
+    <loc>http://www.hory-ai.com/source/github-card/index.html</loc>
     
     <lastmod>2020-07-25</lastmod>
     
@@ -359,14 +366,14 @@
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/source/categories/index.html</loc>
+    <loc>http://www.hory-ai.com/categories/index.html</loc>
     
     <lastmod>2020-07-23</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/categories/index.html</loc>
+    <loc>http://www.hory-ai.com/source/categories/index.html</loc>
     
     <lastmod>2020-07-23</lastmod>
     
@@ -606,7 +613,7 @@
 
   <url>
     <loc>http://www.hory-ai.com/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -614,252 +621,252 @@
   
   <url>
     <loc>http://www.hory-ai.com/tags/Linux/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Network/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Hexo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/block-chain/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/HyperLedger-Fabric/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Hyperledger-Fabric/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/k8s/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Mongo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Pyppeteer/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Dapp/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/horysk/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Centos/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/pyppeteer/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/python/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/fabric/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/hexo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/quant/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/tushare/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/baostock/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Vnc/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/AI/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/ML/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Iftop/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/MTProxy/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/centos-xfce-vnc/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/mongo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Hack/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/VPN/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/DNS/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/stock/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/BI/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/Tools/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/linux/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/tags/vpn/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -868,217 +875,217 @@
   
   <url>
     <loc>http://www.hory-ai.com/categories/Linux/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Linux/Network/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Hexo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/block-chain/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/docker/k8s/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/k8s/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Mongo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Pyppeteer/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Dapp/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/horysk/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/k8s/docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/pyppeteer/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/python/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/hexo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/quant/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/AI/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/docker/proxy/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/docker/centos-xfce-vnc/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/mongo/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/Hack/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/VPN/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/DNS/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/quant/tushare/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/stock/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/BI/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/mongo/docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/VPN/docker/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/python/pyppeteer/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://www.hory-ai.com/categories/vpn/</loc>
-    <lastmod>2022-10-09</lastmod>
+    <lastmod>2022-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
