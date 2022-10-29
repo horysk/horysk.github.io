@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.hory-ai.com/2022/10/29/1667086702/</loc>
+    
+    <lastmod>2022-10-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.hory-ai.com/2022/10/29/1667086668/</loc>
     
     <lastmod>2022-10-29</lastmod>
@@ -464,14 +471,14 @@
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/2020/12/07/23964/</loc>
+    <loc>http://www.hory-ai.com/2020/12/07/23963/</loc>
     
     <lastmod>2020-12-07</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/2020/12/07/23963/</loc>
+    <loc>http://www.hory-ai.com/2020/12/07/23964/</loc>
     
     <lastmod>2020-12-07</lastmod>
     
@@ -730,13 +737,6 @@
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/categories/index.html</loc>
-    
-    <lastmod>2020-07-23</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.hory-ai.com/source/categories/index.html</loc>
     
     <lastmod>2020-07-23</lastmod>
@@ -744,7 +744,7 @@
   </url>
   
   <url>
-    <loc>http://www.hory-ai.com/tags/index.html</loc>
+    <loc>http://www.hory-ai.com/categories/index.html</loc>
     
     <lastmod>2020-07-23</lastmod>
     
@@ -752,6 +752,13 @@
   
   <url>
     <loc>http://www.hory-ai.com/source/tags/index.html</loc>
+    
+    <lastmod>2020-07-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.hory-ai.com/tags/index.html</loc>
     
     <lastmod>2020-07-23</lastmod>
     
