@@ -1,0 +1,260 @@
+{% extends 'base.html' %}
+{% block title %}hory-ai🌊 | 一起构建未来 {% end %}
+
+{% block topnav %}
+
+<!-- <span class="filter-item active" data-filter="all">所有</span> -->
+
+<span class="filter-item game active" data-filter="game">游戏</span>
+<!-- <span class="filter-item" data-filter="3D">3D游戏</span> -->
+<!-- <span class="filter-item" data-filter="cellphone">手游</span> -->
+<span class="filter-item"><a href='{{ static_url("./tools.html") }}' target="_blank"> 工具 </a></span>
+<span class="filter-item"><a href='{{ static_url("./encrypted/index.html") }}' target="_blank"> 机器人
+	</a></span>
+<span class="filter-item"> <a href='{{ static_url("./encrypted/index.html") }}' target="_blank"> AI
+	</a> </span>
+<span class="filter-item"><a href='{{ static_url("./encrypted/index.html") }}' target="_blank">黑客</a> </span>
+<span class="filter-item"> <a href='{{ static_url("./encrypted/index.html") }}' target="_blank">未来智慧</a> </span>
+<span class="filter-item"> <a href="https://bbs.horysk.com" target="_blank">量子论坛</a> </span>
+<!-- <span class="filter-item" > <a href="https://cd.horysk.com"    target="_blank" >编辑器</a> </span> -->
+<span class="filter-item"> <a href="https://wp.horysk.com" target="_blank">资讯</a> </span>
+<span class="filter-item">
+	<ul class="dropdown">
+		<li>
+			<div> <a href="" target="_blank">探索</a></div>
+			<ul>
+				<li><a href="https://bbs.horysk.com" target="_blank">Python</a></li>
+				<li><a href="https://bbs.horysk.com" target="_blank">C/C++</a></li>
+				<li><a href="https://bbs.horysk.com" target="_blank">Rust</a></li>
+				<li><a href="https://bbs.horysk.com" target="_blank">Golang</a></li>
+				<li><a href="https://bbs.horysk.com" target="_blank">Java</a></li>
+				<li><a href="https://bbs.horysk.com" target="_blank">Javascript</a></li>
+			</ul>
+		</li>
+
+
+	</ul>
+</span>
+<!-- <span class="filter-item" > <a href="#"    target="_blank" >探索</a> </span> -->
+{% end %}
+
+{% block main %}
+<div class="gallery-item game">
+	<div>五子棋</div>
+	<div class="gallery-item-inner">
+		<a href='{{ static_url("./Wuzi/index.html") }}' target="_blank"><img
+				src='{{ static_url("./img/PixPin_2024-11-10_11-21-53.png") }}'></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		25,253
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game 3D cellphone">
+	<div>Angry City Smasher</div>
+	<div class="gallery-item-inner">
+		<a href='{{ static_url("games/Angry City Smasher.html") }}' target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/185499/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		215,236
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+
+	<!-- <div>
+					<button class="favorite-button">
+					<div class="icon">
+						<div class="star"></div>
+					</div>
+					<span>Favorite</span>
+				  </button>
+				  </div> -->
+</div>
+<div class="gallery-item game">
+	<div>Shadow Fighter</div>
+	<div class="gallery-item-inner">
+		<a href="games/Shadow Fighter.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/185297/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		2,567
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Ultimate Robo Duel 3D</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Ultimate Robo Duel 3D.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/151624/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		682
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Rainbow Monster</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Rainbow Monster VS Skibidi Toilet.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/166589/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		367
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Hero 2: Katana</div>
+	<div class="gallery-item-inner">
+		<a href="games/Hero 2 Katana.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/145399/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		1,253
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Call of Zombies 3</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Call of Zombies 3.html" target="_blank"><img
+				src="https://img.y8.com/cloud/y8-thumbs/77750/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		5,253
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Rescue Rift</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Rescue Rift.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/173363/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		3,253
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Crazy Commando</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Crazy Commando.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/143401/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		9,253
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>World War Brothers WW2</div>
+	<div class="gallery-item-inner">
+		<a href="./games/World War Brothers WW2.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/174313/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		853
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+
+<div class="gallery-item game">
+	<div>Sniper Elite 3D</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Sniper Elite 3D.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/176183/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		2,453
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Turbo Moto Racer</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Turbo Moto Racer.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/124726/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		653
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Gold Truck Crane</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Gold Truck Crane.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/176671/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		653
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>Traffic Jam 3D</div>
+	<div class="gallery-item-inner">
+		<a href="./games/Traffic Jam 3D.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/152012/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		233
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+</div>
+<div class="gallery-item game">
+	<div>4x4 Offroader</div>
+	<div class="gallery-item-inner">
+		<a href="./games/4x4 Offroader.html" target="_blank"><img
+				src="https://img.y8.com/cloud/v2-y8-thumbs-small-thumbnails-001/169349/small.gif"></a>
+	</div>
+	<div class="play1"><img src='{{ static_url("img/eye.svg") }}' alt="Bootstrap" width="18" height="18">
+		853
+		<img src='{{ static_url("img/hand-thumbs-up.svg") }}' alt="Bootstrap" width="18" height="18">
+		<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+	</div>
+
+
+	{% end %}
+
+
+	{% block pages %}
+	<!-- <span class="filter-item active" data-filter="all">所有</span> -->
+
+	<!-- <span class="filter-item game active" data-filter="game">1</span> -->
+	<!-- <span class="filter-item" data-filter="3D">3D游戏</span> -->
+	<!-- <span class="filter-item" data-filter="cellphone">手游</span> -->
+	<!-- <span class="filter-item" data-filter="tool">2</span> -->
+	<span class="filter-item active"><a href="./index1.html" target="_blank"> 1 </a></span>
+	<span class="filter-item "> <a href="./index2.html" target="_blank"> 2 </a> </span>
+	<span class="filter-item"><a href="./index3.html" target="_blank">3</a> </span>
+	<span class="filter-item"> <a href="./index4.html" target="_blank">4</a> </span>
+	<span class="filter-item"> <a href="./index5.html" target="_blank">5</a> </span>
+	<span class="filter-item"> <a href="./index6.html" target="_blank">6</a> </span>
+	<span class="filter-item"> <a href="./index7.html" target="_blank">7</a> </span>
+	<span class="filter-item"> <a href="./index8.html" target="_blank">8</a> </span>
+	<span class="filter-item  "> <a href="./index9.html" target="_blank">9</a> </span>
+	<span class="filter-item  "> <a href="./index10.html" target="_blank">10</a> </span>
+	<span class="filter-item  "> <a href="./index11.html" target="_blank">11</a> </span>
+	<span class="filter-item  "> <a href="./index12.html" target="_blank">12</a> </span>
+	<span class="filter-item  "> <a href="./index13.html" target="_blank">13</a> </span>
+	<!-- <span class="filter-item" > <a href="https://cd.horysk.com"    target="_blank" >编辑器</a> </span> -->
+	<!-- <span class="filter-item"> <a href="https://wp.horysk.com" target="_blank">6</a> </span> -->
+
+	<!-- <span class="filter-item" > <a href="#"    target="_blank" >探索</a> </span> -->
+	{% end %}

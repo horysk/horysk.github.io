@@ -1,0 +1,1150 @@
+html {
+	scroll-behavior: smooth;
+  }
+  
+/*PC*/
+@media screen and (min-width:960px){
+
+body{
+	line-height: 1.5;
+	font-family: sans-serif;
+	background-color: #221d1d;
+	height: 1800px;
+	background:  url('../bg0.png');
+	filter:alpha(opacity=50);  
+	/* -moz-opacity:0.5;  
+	-khtml-opacity: 0.5;  
+	opacity: 0.5; */
+	/* background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;  */
+}
+/* *{
+	margin:0;
+	box-sizing: border-box;
+} */
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+
+
+.topnav{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top: -150px;
+	margin-left: 100px;
+	border-radius: 8px;
+}
+.rlist{
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+	border-radius: 8px;
+
+}
+img:hover{
+	transform: scale(1.3); /* 图片放大1.倍 */
+	transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	border-color: blanchedalmond;
+	border-radius: 50%;
+}
+.gallery-item-inner a img{
+	width: 160px;
+	height: 120px;
+	
+}
+
+.gallery-filter {
+	margin-top: 20px;	
+}
+.gallery .gallery-filter{
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gallery .gallery-filter .filter-item{
+	color: #ffffff;
+	font-size: 17px;
+  border: 2px solid white;
+	text-transform: uppercase;
+	display: inline-block;
+  border-radius: 8px;
+  margin-right: 8px;
+	cursor: pointer;
+  padding: 8px 20px 8px 20px;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+.gallery .gallery-filter .filter-item.active{
+	color: white;
+	border-color : #16b5ef;
+  background: #16b5ef;
+}
+.gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+
+}
+.gallery-item {
+	color: coral;
+	text-align: center;
+	width: 200px !important;
+	/* background-image: url("img/bg.png"); */
+	
+}
+.gallery .gallery-item-inner img{
+
+  border: 15px solid #afafaf30;
+}
+.gallery .gallery-item-inner img:hover{
+
+	border: 20px solid #67656561;
+	transform: scale(1.5); /* 图片放大1.5倍 */
+	transition: width 0.8s, height 0.8s; /* 过渡效果 */
+  }
+.gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.gallery .gallery-item.hide{
+	display: none;
+}
+
+/*responsive*/
+@media(max-width: 491px){
+	.gallery .gallery-item{
+		width: 50%;
+	}
+}
+@media(max-width: 467px){
+    .gallery .gallery-item{
+		width: 100%;
+	}
+	.gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+}
+#menu {
+			  position: absolute;
+			  width: 100%;
+			  top: 60%;
+			  margin: auto;
+			  margin-top: 120px;
+			  font-family: "Open Sans", sans-serif;
+			  color: #fdde8c;
+			  font-size: 0.8em;
+			  text-transform: uppercase;
+			  text-align: center;
+			  line-height: 1.5;
+			  user-select: none;
+			}
+			a{
+			   color: #00f3ff;
+			}
+			p{
+				color: #fffc9d;
+			}
+#footer {
+	    margin-top: 0px;
+	    margin-right: 0px;
+	    margin-bottom: 0px;
+	    margin-left: 0px;
+	}
+.page-footer {
+			position: fixed;
+			right: 0;
+			bottom: 20px;
+			display: flex;
+			align-items: center;
+			padding: 5px;
+			color: rgb(255, 255, 255);
+			background: rgba(105, 105, 105, 0.65);
+}
+
+.page-footer a {
+	display: flex;
+	margin-left: 4px;
+}
+.touxiang{
+	width:24px;
+	height:24px;
+}
+
+
+ul li{
+    list-style: none;
+    /* 清除列表原有样式 */
+	text-align: left;
+}
+
+span .dropdown {
+	/* width: 70px; */
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:none;
+}
+
+span .dropdown li {
+	padding: 8px;
+	position: relative;
+	color:aqua;
+	border:none;
+	/* background-color: #ffffff; */
+}
+
+span .dropdown ul {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border:none;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/* width: 200px; */
+}
+
+span .dropdown ul ul {
+	left: 100%;
+	position: absolute;
+	border:none;
+	top: 0;
+}
+
+span .dropdown li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	color:chartreuse;
+
+}
+
+span .dropdown li:hover>ul {
+	display: block;
+}
+
+a:hover{
+
+	color:chartreuse;
+	font-size: 130%;
+}
+
+
+
+
+/* 主体设置 */
+/*
+body {
+    height: 1000px; 
+}
+
+*/
+/* 底部盒子 bottom 样式 */
+.right-box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 80px; /* 设置宽度 */
+    height: 800px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   /*  bottom: 50px; 距离页面底部50px */
+   /* left: 50%;  水平居中 */
+    top:30px;
+	right: 30px;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 导航图片容器 all-image 样式 */
+.all-image {
+    width: 95%; /* 设置宽度 */
+    height: 80%; /* 设置高度 */
+    text-align: center; /* 图片居中显示 */
+    transition: text-align 0.3s; /* 添加过渡效果 */
+}
+
+/* 导航图片 nav-image 样式 */
+.nav-image {
+    display: inline-block; /* 让图片可以一行显示 */
+    margin-left: 10px; /* 左侧外边距 */
+    margin-top: 10px; /* 顶部外边距 */
+
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.right-box:hover {
+    width: 90px;    /* 导航栏变宽 */
+    height: 850px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.right-box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+
+
+/* 底部盒子 bottom 样式 */
+.left_box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 80px; /* 设置宽度 */
+    height: 800px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   /*  bottom: 50px; 距离页面底部50px */
+   /* left: 50%;  水平居中 */
+    top:30px;
+	left: 80px;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.left_box:hover {
+    width: 90px;    /* 导航栏变宽 */
+    height: 850px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.left_box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+
+
+
+/* 底部盒子 bottom 样式 */
+.bottom-box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 800px; /* 设置宽度 */
+    height: 80px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   bottom: -20px;  /*   距离页面底部50px */
+   /* left: 50%;  水平居中 */
+  
+	left: 80%;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.bottom-box:hover {
+    width: 850px;    /* 导航栏变宽 */
+    height: 90px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.bottom-box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+.play1{
+	color: rgb(187, 187, 187);
+	/* background-color: #ffffff; */
+}
+
+.play1:hover{
+	color: rgb(218, 218, 218);
+}
+
+}
+
+
+ /*平板*/
+ @media screen and (min-width:600px) and (max-width:960px){
+           
+
+
+body{
+	line-height: 1.5;
+	font-family: sans-serif;
+	background-color: #221d1d;
+	height: 1800px;
+	background:  url('../bg0.png');
+	filter:alpha(opacity=50);  
+	/* -moz-opacity:0.5;  
+	-khtml-opacity: 0.5;  
+	opacity: 0.5; */
+	/* background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;  */
+}
+/* *{
+	margin:0;
+	box-sizing: border-box;
+} */
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+
+
+.topnav{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top: -150px;
+	margin-left: 100px;
+	border-radius: 8px;
+}
+.rlist{
+	margin-top: 100px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+	border-radius: 8px;
+
+}
+img:hover{
+	transform: scale(1.3); /* 图片放大1.倍 */
+	transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	border-color: blanchedalmond;
+	border-radius: 50%;
+}
+.gallery-item-inner a img{
+	width: 160px;
+	height: 120px;
+	
+}
+
+.gallery-filter {
+	margin-top: 20px;	
+}
+.gallery .gallery-filter{
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gallery .gallery-filter .filter-item{
+	color: #ffffff;
+	font-size: 17px;
+  border: 2px solid white;
+	text-transform: uppercase;
+	display: inline-block;
+  border-radius: 8px;
+  margin-right: 8px;
+	cursor: pointer;
+  padding: 8px 20px 8px 20px;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+.gallery .gallery-filter .filter-item.active{
+	color: white;
+	border-color : #16b5ef;
+  background: #16b5ef;
+}
+.gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+
+}
+.gallery-item {
+	color: coral;
+	text-align: center;
+	width: 200px !important;
+	/* background-image: url("img/bg.png"); */
+	
+}
+.gallery .gallery-item-inner img{
+
+  border: 15px solid #afafaf30;
+}
+.gallery .gallery-item-inner img:hover{
+
+	border: 20px solid #67656561;
+	transform: scale(1.5); /* 图片放大1.5倍 */
+	transition: width 0.8s, height 0.8s; /* 过渡效果 */
+  }
+.gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.gallery .gallery-item.hide{
+	display: none;
+}
+
+/*responsive*/
+@media(max-width: 491px){
+	.gallery .gallery-item{
+		width: 50%;
+	}
+}
+@media(max-width: 467px){
+    .gallery .gallery-item{
+		width: 100%;
+	}
+	.gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+}
+#menu {
+			  position: absolute;
+			  width: 100%;
+			  top: 60%;
+			  margin: auto;
+			  margin-top: 120px;
+			  font-family: "Open Sans", sans-serif;
+			  color: #fdde8c;
+			  font-size: 0.8em;
+			  text-transform: uppercase;
+			  text-align: center;
+			  line-height: 1.5;
+			  user-select: none;
+			}
+			a{
+			   color: #00f3ff;
+			}
+			p{
+				color: #fffc9d;
+			}
+#footer {
+	    margin-top: 0px;
+	    margin-right: 0px;
+	    margin-bottom: 0px;
+	    margin-left: 0px;
+	}
+.page-footer {
+			position: fixed;
+			right: 0;
+			bottom: 20px;
+			display: flex;
+			align-items: center;
+			padding: 5px;
+			color: rgb(255, 255, 255);
+			background: rgba(105, 105, 105, 0.65);
+}
+
+.page-footer a {
+	display: flex;
+	margin-left: 4px;
+}
+.touxiang{
+	width:24px;
+	height:24px;
+}
+
+
+ul li{
+    list-style: none;
+    /* 清除列表原有样式 */
+	text-align: left;
+}
+
+span .dropdown {
+	/* width: 70px; */
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:none;
+}
+
+span .dropdown li {
+	padding: 8px;
+	position: relative;
+	color:aqua;
+	border:none;
+	/* background-color: #ffffff; */
+}
+
+span .dropdown ul {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border:none;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/* width: 200px; */
+}
+
+span .dropdown ul ul {
+	left: 100%;
+	position: absolute;
+	border:none;
+	top: 0;
+}
+
+span .dropdown li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	color:chartreuse;
+
+}
+
+span .dropdown li:hover>ul {
+	display: block;
+}
+
+a:hover{
+
+	color:chartreuse;
+	font-size: 130%;
+}
+
+
+
+
+/* 主体设置 */
+/*
+body {
+    height: 1000px; 
+}
+
+*/
+/* 底部盒子 bottom 样式 */
+.right-box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 80px; /* 设置宽度 */
+    height: 800px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   /*  bottom: 50px; 距离页面底部50px */
+   /* left: 50%;  水平居中 */
+    top:30px;
+	right: 30px;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 导航图片容器 all-image 样式 */
+.all-image {
+    width: 95%; /* 设置宽度 */
+    height: 80%; /* 设置高度 */
+    text-align: center; /* 图片居中显示 */
+    transition: text-align 0.3s; /* 添加过渡效果 */
+}
+
+/* 导航图片 nav-image 样式 */
+.nav-image {
+    display: inline-block; /* 让图片可以一行显示 */
+    margin-left: 10px; /* 左侧外边距 */
+    margin-top: 10px; /* 顶部外边距 */
+
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.right-box:hover {
+    width: 90px;    /* 导航栏变宽 */
+    height: 850px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.right-box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+
+
+/* 底部盒子 bottom 样式 */
+.left_box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 80px; /* 设置宽度 */
+    height: 800px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   /*  bottom: 50px; 距离页面底部50px */
+   /* left: 50%;  水平居中 */
+    top:30px;
+	left: 80px;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.left_box:hover {
+    width: 90px;    /* 导航栏变宽 */
+    height: 850px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.left_box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+
+
+
+/* 底部盒子 bottom 样式 */
+.bottom-box {
+    position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+    z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+    width: 800px; /* 设置宽度 */
+    height: 80px; /* 设置高度 */
+   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+   bottom: -20px;  /*   距离页面底部50px */
+   /* left: 50%;  水平居中 */
+  
+	left: 80%;
+    transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+    transition: width 0.8s, height 0.8s; /* 过渡效果 */
+}
+
+/* 鼠标悬浮时 bottom 样式变化 */
+.bottom-box:hover {
+    width: 850px;    /* 导航栏变宽 */
+    height: 90px;  /* 导航栏变高 */
+}
+
+/* 鼠标悬浮时 图片样式变化 */
+.bottom-box img:hover {
+    transform: scale(2.6); /* 图片放大1.5倍 */
+    margin-left: 10px; /* 左侧外边距增加 */
+    margin-right: 10px; /* 右侧外边距增加 */
+    transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+}
+
+.play1{
+	color: rgb(187, 187, 187);
+	/* background-color: #ffffff; */
+}
+
+.play1:hover{
+	color: rgb(218, 218, 218);
+}
+
+}
+
+
+
+/*手机*/
+@media screen and (max-width:600px){
+	
+
+
+	body{
+		line-height: 1.5;
+		font-family: sans-serif;
+		background-color: #221d1d;
+		height: 1800px;
+		background:  url('../bg0.png');
+		filter:alpha(opacity=50);  
+		/* -moz-opacity:0.5;  
+		-khtml-opacity: 0.5;  
+		opacity: 0.5; */
+		/* background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:100% 100%;  */
+	}
+	/* *{
+		margin:0;
+		box-sizing: border-box;
+	} */
+	
+	
+	
+	.container{
+		max-width: 1170px;
+		margin:auto;
+	}
+	
+	
+	
+	.topnav{
+		position: fixed;
+		background-color: rgba(0, 0, 0, 0.3);
+		padding-top: 20px;
+		margin-top: -130px;
+		margin-left: 15px;
+		border-radius: 8px;
+	}
+	.rlist{
+		margin-top: 100px;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+	}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	img{
+		max-width: 100%;
+		vertical-align: middle;
+		border-radius: 8px;
+	
+	}
+	img:hover{
+		transform: scale(1.3); /* 图片放大1.倍 */
+		transition: width 0.8s, height 0.8s; /* 过渡效果 */
+		border-color: blanchedalmond;
+		border-radius: 50%;
+	}
+	.gallery-item-inner a img{
+		width: 65px;
+		height: 50px;
+		
+	}
+	
+	.gallery-filter {
+		/* margin-top: 20px;	 */
+	}
+	.gallery .gallery-filter{
+		/* padding: 0 15px; */
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.gallery .gallery-filter .filter-item{
+		color: #ffffff;
+		font-size: 17px;
+	  border: 2px solid white;
+		text-transform: uppercase;
+		display: inline-block;
+	  border-radius: 8px;
+	  margin-right: 8px;
+		cursor: pointer;
+	  /* padding: 8px 20px 8px 20px; */
+		line-height: 1.2;
+		transition: all 0.3s ease;
+	}
+	.gallery .gallery-filter .filter-item.active{
+		color: white;
+		border-color : #16b5ef;
+	  background: #16b5ef;
+	}
+	.gallery .gallery-item{
+		width: calc(100% / 3);
+		/* padding: 5px; */
+	
+	}
+	.gallery-item {
+		color: coral;
+		text-align: center;
+		width: 120px !important;
+		/* background-image: url("img/bg.png"); */
+		
+	}
+	.gallery .gallery-item-inner img{
+	
+	  border: 15px solid #afafaf30;
+	}
+	.gallery .gallery-item-inner img:hover{
+	
+		border: 20px solid #67656561;
+		transform: scale(1.5); /* 图片放大1.5倍 */
+		transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	  }
+	.gallery .gallery-item.show{
+		animation: fadeIn 0.5s ease;
+	}
+	@keyframes fadeIn{
+		0%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+	}
+	.gallery .gallery-item.hide{
+		display: none;
+	}
+	
+	/*responsive*/
+	@media(max-width: 491px){
+		.gallery .gallery-item{
+			width: 50%;
+		}
+	}
+	@media(max-width: 467px){
+		.gallery .gallery-item{
+			width: 100%;
+		}
+		.gallery .gallery-filter .filter-item{
+			margin-bottom: 10px;
+		}
+	}
+	#menu {
+				  position: absolute;
+				  width: 100%;
+				  top: 60%;
+				  margin: auto;
+				  margin-top: 120px;
+				  font-family: "Open Sans", sans-serif;
+				  color: #fdde8c;
+				  font-size: 0.8em;
+				  text-transform: uppercase;
+				  text-align: center;
+				  line-height: 1.5;
+				  user-select: none;
+				}
+				a{
+				   color: #00f3ff;
+				}
+				p{
+					color: #fffc9d;
+				}
+	#footer {
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+	.page-footer {
+				position: fixed;
+				right: 0;
+				bottom: 20px;
+				display: flex;
+				align-items: center;
+				padding: 5px;
+				color: rgb(255, 255, 255);
+				background: rgba(105, 105, 105, 0.65);
+	}
+	
+	.page-footer a {
+		display: flex;
+		margin-left: 4px;
+	}
+	.touxiang{
+		width:24px;
+		height:24px;
+	}
+	
+	
+	ul li{
+		list-style: none;
+		/* 清除列表原有样式 */
+		text-align: left;
+	}
+	
+	span .dropdown {
+		/* width: 70px; */
+		border: 1px solid rgba(0, 0, 0, 0.3);
+		display: flex;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		border:none;
+	}
+	
+	span .dropdown li {
+		padding: 8px;
+		position: relative;
+		color:aqua;
+		border:none;
+		/* background-color: #ffffff; */
+	}
+	
+	span .dropdown ul {
+		border: 1px solid rgba(0, 0, 0, 0.3);
+		border:none;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 100%;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		/* width: 200px; */
+	}
+	
+	span .dropdown ul ul {
+		left: 100%;
+		position: absolute;
+		border:none;
+		top: 0;
+	}
+	
+	span .dropdown li:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+		color:chartreuse;
+	
+	}
+	
+	span .dropdown li:hover>ul {
+		display: block;
+	}
+	
+	a:hover{
+	
+		color:chartreuse;
+		font-size: 130%;
+	}
+	
+	
+	
+	
+	/* 主体设置 */
+	/*
+	body {
+		height: 1000px; 
+	}
+	
+	*/
+	/* 底部盒子 bottom 样式 */
+	.right-box {
+		position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+		z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+		width: 80px; /* 设置宽度 */
+		height: 800px; /* 设置高度 */
+	   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+	   /*  bottom: 50px; 距离页面底部50px */
+	   /* left: 50%;  水平居中 */
+		top:10px;
+		right: -55px;
+		transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+		transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	}
+	
+	/* 导航图片容器 all-image 样式 */
+	.all-image {
+		width: 95%; /* 设置宽度 */
+		height: 80%; /* 设置高度 */
+		text-align: center; /* 图片居中显示 */
+		transition: text-align 0.3s; /* 添加过渡效果 */
+	}
+	
+	/* 导航图片 nav-image 样式 */
+	.nav-image {
+		display: inline-block; /* 让图片可以一行显示 */
+		margin-left: 10px; /* 左侧外边距 */
+		margin-top: 10px; /* 顶部外边距 */
+	
+	}
+	
+	/* 鼠标悬浮时 bottom 样式变化 */
+	.right-box:hover {
+		width: 90px;    /* 导航栏变宽 */
+		height: 850px;  /* 导航栏变高 */
+	}
+	
+	/* 鼠标悬浮时 图片样式变化 */
+	.right-box img:hover {
+		transform: scale(2.6); /* 图片放大1.5倍 */
+		margin-left: 10px; /* 左侧外边距增加 */
+		margin-right: 10px; /* 右侧外边距增加 */
+		transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+	}
+	
+	
+	
+	/* 底部盒子 bottom 样式 */
+	.left_box {
+		position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+		z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+		width: 80px; /* 设置宽度 */
+		height: 800px; /* 设置高度 */
+	   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+	   /*  bottom: 50px; 距离页面底部50px */
+	   /* left: 50%;  水平居中 */
+		top:10px;
+		left: 15px;
+		transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+		transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	}
+	
+	/* 鼠标悬浮时 bottom 样式变化 */
+	.left_box:hover {
+		width: 90px;    /* 导航栏变宽 */
+		height: 850px;  /* 导航栏变高 */
+	}
+	
+	/* 鼠标悬浮时 图片样式变化 */
+	.left_box img:hover {
+		transform: scale(2.6); /* 图片放大1.5倍 */
+		margin-left: 10px; /* 左侧外边距增加 */
+		margin-right: 10px; /* 右侧外边距增加 */
+		transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+	}
+	
+	
+	
+	
+	/* 底部盒子 bottom 样式 */
+	.bottom-box {
+		position: fixed; /* 固定定位，让导航栏固定在页面底部 */
+		z-index: 10; /* 设置叠层顺序，确保导航栏显示在最前 */
+		width: 800px; /* 设置宽度 */
+		height: 80px; /* 设置高度 */
+	   /*  background-color: rgba(0, 152, 50, 0.3); 半透明背景色 */
+	   bottom: -20px;  /*   距离页面底部50px */
+	   /* left: 50%;  水平居中 */
+	  
+		left: 80%;
+		transform: translateX(-50%); /* 通过X轴偏移，使其真正居中 */
+		transition: width 0.8s, height 0.8s; /* 过渡效果 */
+	}
+	
+	/* 鼠标悬浮时 bottom 样式变化 */
+	.bottom-box:hover {
+		width: 850px;    /* 导航栏变宽 */
+		height: 100px;  /* 导航栏变高 */
+	}
+	
+	/* 鼠标悬浮时 图片样式变化 */
+	.bottom-box img:hover {
+		transform: scale(2.6); /* 图片放大1.5倍 */
+		margin-left: 10px; /* 左侧外边距增加 */
+		margin-right: 10px; /* 右侧外边距增加 */
+		transition: transform 0.8s, margin-left 0.3s, margin-right 0.3s; /* 添加过渡效果 */
+	}
+	
+	.play1{
+		color: rgb(187, 187, 187);
+		/* background-color: #ffffff; */
+	}
+	
+	.play1:hover{
+		color: rgb(218, 218, 218);
+	}
+
+
+	
+}

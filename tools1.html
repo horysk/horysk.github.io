@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<!-- Design by hory-ai.com-->
+<html lang="en">
+
+<head>
+	<title>hory-ai🌊 | 一起构建未来</title>
+	<meta name="keywords" content="hory-ai 一起构建未来" />
+	<meta name="description" content="一起构建未来  游戏 | 工具 | AI | 机器人;  horysk.com  技术支持  hory-ai" />
+	<meta name="author" content="hory-ai(#)" />
+	<meta name="copyright" content="hory-ai(#)" />
+	<link rel="icon" href="./img/favicon.png" sizes="192x192" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style media="screen">
+		@import url(css_/css.css);
+	</style>
+	<style media="screen">
+		@import url(css_/css2.css);
+	</style>
+	<script src="js_/gsap.min.js"></script>
+	<script src="js_/anime.min.js"></script>
+	<script src="js_/MotionPathPlugin.min.js"></script>
+	<script src="js_/js_xk.js"></script>
+	<link rel="stylesheet" href="css_/bootstrap-icons.css">
+	<style>
+		body {
+			cursor: url('./img/1.ico'), auto;
+		}
+
+		a,
+		a:visited {
+			cursor: url('./img/3.ico'), auto;
+		}
+	</style>
+	<script type="text/javascript">
+
+		var loadProcess = function (config) {
+			var count = 0;
+			var id = config.id;
+			var divTxt = "#" + id;
+			/*loading进度条样式*/
+			$("body").prepend('<div id="' + id + '" style="width: 0%; height:8px; background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);"></div>');
+
+			/*更新进度条*/
+			this.updateProcess = function (percent) {
+				setTimeout(function () { $(divTxt).animate({ width: percent + "%" }) }, ++count * 500);
+				if (percent == 100) {           /*100%就从页面移除loading标签*/
+					setTimeout(function () {
+						$(divTxt).hide(500);
+						setTimeout(function () { $(divTxt).remove() }, 500);
+					}, count * 500 + 800);
+				}
+			};
+		}
+	</script>
+	<!-- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"JxVJPIpe3UAQqoDx",ck:"JxVJPIpe3UAQqoDx"})</script> -->
+	<!-- 谷歌广告 -->
+	<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7056167681359419" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+	<div id="ww_de629ae0f2907" v='1.3' loc='auto'
+		a='{"t":"ticker","lang":"zh","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+		<a href="https://weatherwidget.org/zh/" id="ww_de629ae0f2907_u" target="_blank">天气插件</a>
+	</div>
+	<script async src="https://app3.weatherwidget.org/js/?id=ww_de629ae0f2907"></script>
+	<section class="gallery">
+		<div class="container">
+			<div class="row topnav">
+				<div class="gallery-filter">
+					<!-- <span class="filter-item active" data-filter="all">所有</span> -->
+
+					<span class="filter-item game " data-filter="game"><a href="./index1.html" target="_blank"> 游戏
+						</a></span>
+					<!-- <span class="filter-item" data-filter="3D">3D游戏</span> -->
+					<!-- <span class="filter-item" data-filter="cellphone">手游</span> -->
+					<span class="filter-item  active"><a href="./tools.html" target="_blank"> 工具 </a></span>
+					<span class="filter-item"><a href="./encrypted/index.html" target="_blank"> 机器人 </a></span>
+					<span class="filter-item"> <a href="./encrypted/index.html" target="_blank"> AI </a> </span>
+					<span class="filter-item"><a href="./encrypted/index.html" target="_blank">黑客</a> </span>
+					<span class="filter-item"> <a href="./encrypted/index.html" target="_blank">未来智慧</a> </span>
+					<span class="filter-item"> <a href="https://bbs.horysk.com" target="_blank">量子论坛</a> </span>
+					<!-- <span class="filter-item" > <a href="https://cd.horysk.com"    target="_blank" >编辑器</a> </span> -->
+					<span class="filter-item"> <a href="https://wp.horysk.com" target="_blank">资讯</a> </span>
+					<span class="filter-item">
+						<ul class="dropdown">
+							<li>
+								<div> <a href="" target="_blank">探索</a></div>
+								<ul>
+									<li><a href="https://bbs.horysk.com" target="_blank">Python</a></li>
+									<li><a href="https://bbs.horysk.com" target="_blank">C/C++</a></li>
+									<li><a href="https://bbs.horysk.com" target="_blank">Rust</a></li>
+									<li><a href="https://bbs.horysk.com" target="_blank">Golang</a></li>
+									<li><a href="https://bbs.horysk.com" target="_blank">Java</a></li>
+									<li><a href="https://bbs.horysk.com" target="_blank">Javascript</a></li>
+								</ul>
+							</li>
+
+
+						</ul>
+					</span>
+					<!-- <span class="filter-item" > <a href="#"    target="_blank" >探索</a> </span> -->
+				</div>
+			</div>
+			<div class="row rlist">
+
+
+
+				<div class="gallery-item tool">
+					<div>新华字典</div>
+					<div class="gallery-item-inner">
+						<a href="./games/xinhua.html" target="_blank"><img
+								src="./img/PixPin_2024-11-10_13-18-13.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						7,157
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+				<div class="gallery-item tool ">
+					<div>新大字典</div>
+					<div class="gallery-item-inner">
+						<a href="./games/xinhua2.html" target="_blank"><img
+								src="./img/PixPin_2024-11-17_14-16-14.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						157,657
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool ">
+					<div>大辞典</div>
+					<div class="gallery-item-inner">
+						<a href="https://www.zidian.com.cn/" target="_blank"><img
+								src="./img/PixPin_2024-11-17_14-14-48.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						57,351
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>打字学编程</div>
+					<div class="gallery-item-inner">
+						<a href="https://dz.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_11-31-49.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						9,178
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+				<div class="gallery-item tool">
+					<div>打字学中文</div>
+					<div class="gallery-item-inner">
+						<a href="https://dazi.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-17_19-42-50.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						5,163
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+				<div class="gallery-item tool ">
+					<div>打字练习</div>
+					<div class="gallery-item-inner">
+						<a href="./games/typing.html" target="_blank"><img
+								src="./img/PixPin_2024-11-16_16-34-00.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						21,675
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+				<div class="gallery-item tool ">
+					<div>打字测试</div>
+					<div class="gallery-item-inner">
+						<a href="./games/typ2.html" target="_blank"><img src="./img/PixPin_2024-11-17_19-41-02.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						36,254
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>NOI题库</div>
+					<div class="gallery-item-inner">
+						<a href="./games/oj2.html" target="_blank"><img src="./img/PixPin_2024-11-17_18-17-12.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						35,124
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>OJ</div>
+					<div class="gallery-item-inner">
+						<a href="https://oj.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-11_14-45-32.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						24
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+				<div class="gallery-item tool">
+					<div>算法题库</div>
+					<div class="gallery-item-inner">
+						<a href="./games/oj.html" target="_blank"><img src="./img/PixPin_2024-11-17_18-24-14.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						67,351
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>课程</div>
+					<div class="gallery-item-inner">
+						<a href="https://teach.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_13-25-22.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						37
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>课程手机端</div>
+					<div class="gallery-item-inner">
+						<a href="https://t-h5.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_13-26-42.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						30
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>DIF</div>
+					<div class="gallery-item-inner">
+						<a href="https://dif.horysk.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_12-09-42.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						335
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>WUB</div>
+					<div class="gallery-item-inner">
+						<a href="https://wub.horysk.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_13-38-09.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						674
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+				<div class="gallery-item tool">
+					<div>Scratch</div>
+					<div class="gallery-item-inner">
+						<a href="https://scw.hory-ai.com" target="_blank"><img
+								src="./img/PixPin_2024-11-10_18-17-18.png"></a>
+					</div>
+					<div class="play1"><img src="img/eye.svg" alt="Bootstrap" width="18" height="18">
+						71
+						<img src="img/hand-thumbs-up.svg" alt="Bootstrap" width="18" height="18">
+						<!-- <img src="img/hand-thumbs-down.svg" alt="Bootstrap" width="18" height="18"> -->
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+		</div>
+		<!-- 分页 -->
+		<div>
+			<div class="row botnav">
+				<div class="gallery-filter">
+					<!-- <span class="filter-item active" data-filter="all">所有</span> -->
+
+					<!-- <span class="filter-item game active" data-filter="game">1</span> -->
+					<!-- <span class="filter-item" data-filter="3D">3D游戏</span> -->
+					<!-- <span class="filter-item" data-filter="cellphone">手游</span> -->
+					<!-- <span class="filter-item" data-filter="tool">2</span> -->
+					<span class="filter-item active"><a href="./tools1.html" target="_blank"> 1 </a></span>
+					<span class="filter-item "> <a href="./tools2.html" target="_blank"> 2 </a> </span>
+					<span class="filter-item"><a href="./tools3.html" target="_blank">3</a> </span>
+					<span class="filter-item "><a href="./tools4.html" target="_blank">4</a> </span>
+					<!-- <span class="filter-item" > <a href="https://cd.horysk.com"    target="_blank" >编辑器</a> </span> -->
+					<!-- <span class="filter-item"> <a href="https://wp.horysk.com" target="_blank">6</a> </span> -->
+
+					<!-- <span class="filter-item" > <a href="#"    target="_blank" >探索</a> </span> -->
+				</div>
+			</div>
+		</div>
+		<footer id="footer" role="contentinfo">
+			<div class="container">
+
+				<!-- <p align="center">正在全力更新中    |    更新进度：3912/10000</p>	 -->
+				<!-- <p align="center">因开发运营成本问题，现寻求合作商/天使投资人</p>	 -->
+				<p align="center">更多👉：<a href="https://gm.hory-ai.com" target="_blank">gm.hory-ai.com</a> | <a
+						href="https://www.horysk.com" target="_blank">www.horysk.com</a></p>
+				<p align="center">订阅公众号：<a href="#">hory-ai</a> | 交流学习群：<font color="#ff0000">【821613408】</font>
+				</p>
+				<!-- <p align="center">作者立志打造一个拥有10000个游戏/工具/AI的经典网站</p> -->
+
+			</div>
+			<!--	
+								<div class="copy-text">
+									
+									<p align="center">
+										   <a href="./about.html"  target="_blank" >作者简介</a> | 
+										   <a href="./moyu.html"  target="_blank" >AI</a> | 
+										   <a href="https://game.hory-ai.com"  target="_blank" >游戏</a> | 
+										   <a href="https://tools.hory-ai.com"  target="_blank" >工具</a> | 
+										   <a href="./contact.html"  target="_blank" >联系</a> | 
+										   <a href="./chat.html"  target="_blank" >粉丝福利</a>
+											
+									</p>
+								</div>
+
+						
+					<p align="center">
+						<a href="#">CSDN</a> |	<a href="#">掘金</a> | 
+						<a href="#">华为云</a> | <a href="#">腾讯云</a> | <a href="#">阿里云</a> |
+						<a href="#">哔哩哔哩</a> | <a href="#">知乎</a> | <a href="#">开源中国</a> |
+				
+						<a href="#">简书</a> | <a href="#">GitHub</a> |	<a href="#">Gitee</a>
+					</p>
+					-->
+
+
+		</footer>
+		<footer class="page-footer">
+			<span>More👉</span>
+			<a href="http://bbs.horysk.com/" target="_blank">
+				<img class="touxiang" src="./img/favicon.png" alt="关注:  www.hory-ai.com">
+			</a>
+		</footer>
+	</section>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+	<span class="js-cursor-container"></span>
+	<script src="js_/js1.js"></script>
+	<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+
+
+
+	<!-- 底侧的盒子 用来装有导航效果的图片 -->
+	<div class="bottom-box">
+
+		<!-- 放所有的导航图片 -->
+		<div class="all-image">
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/metaburner-2024-04-23.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/mass-rename-file-batch-rename-2024-04-23.avif" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://macosicons.com/#/" target="_blank">
+					<img src="./img/screenfloat-screenshot-tools-2024-04-19.avif" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/helm-for-app-store-connect-2024-06-27.avif" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/cleanmymac-2024-11-06.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<!-- 右边侧的盒子 用来装有导航效果的图片 -->
+	<div class="right-box">
+
+		<!-- 放所有的导航图片 -->
+		<div class="all-image">
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/1644799-20240607090814805-1305600772.png" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/1644799-20240607091022624-164039111.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://bitv.horysk.com/#/" target="_blank">
+					<img src="./img/apple-developer-2020-07-01.avif" title="bitv" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/1644799-20240606230902629-10880480.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://cd.horysk.com" target="_blank">
+					<img src="./img/1644799-20240607100723206-190886041.png" title="code" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="mailto:svip5285@gmail.com" target="_blank">
+					<img src="./img/1644799-20240607091054342-1451633099.png" title="email" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/1644799-20240607091150954-1283031599.png" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="weixin://contacts/profile/q_meta_verse" target="_blank">
+					<img src="./img/1644799-20240607091302053-1634267836.png" title="wechat" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=821613408&site=qq&menu=yes" target="_blank">
+					<img src="./img/1644799-20240607091400907-2075995576.png" title="QQ" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/cleanmaster-remove-junk-files-2022-02-03.avif" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://git.horysk.com" target="_blank">
+					<img src="./img/solitaire-stories-2022-07-28.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/rocketsim-for-xcode-simulator-2022-06-17.avif" title="hory-ai" width="40px"
+						height="40px">
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 左侧的盒子 用来装有导航效果的图片 -->
+	<div class="left_box">
+
+		<!-- 放所有的导航图片 -->
+		<div class="all-image">
+
+			<!-- 图片1 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/system-preferences-2021-06-03.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片2 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/network-radar-2022-01-10.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片3 -->
+			<div class="nav-image">
+				<a href="https://bitv.horysk.com/" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_21-02-14.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片4 -->
+			<div class="nav-image">
+				<a href="https://bitv.horysk.com/" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_21-25-00.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片5 -->
+			<div class="nav-image">
+				<a href="mailto:svip5285@gmail.com" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_21-27-09.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片6 -->
+			<div class="nav-image">
+				<a href="https://cd.horysk.com/" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_21-31-30.png" title="email" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片7 -->
+			<div class="nav-image">
+				<a href="https://cd.horysk.com/" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_21-32-43.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片8 -->
+			<div class="nav-image">
+				<a href="https://ps.gaoding.com/" target="_blank">
+					<img src="./img/Snipaste_2024-10-21_22-14-41.png" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+
+			<!-- 图片9 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/advertising-agency-2021-01-22.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片10 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/github-desktop-2021-05-20.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+			<!-- 图片11 -->
+			<div class="nav-image">
+				<a href="https://www.hory-ai.com" target="_blank">
+					<img src="./img/sketch-2021-05-05.avif" title="hory-ai" width="40px" height="40px">
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+</body>
+
+<script type="text/javascript">
+	/*需要放在body标签后面，然后在适当的位置调用updateProcess方法*/
+	var p = new loadProcess({ "id": "loading" });
+	p.updateProcess(30);
+	p.updateProcess(57);
+	p.updateProcess(60);
+	p.updateProcess(70);
+	p.updateProcess(80);
+	p.updateProcess(100);
+</script>
+
+<script src="js_/js2.js"></script>
+
+<div id="jsi-flying-fish-container" class="container"></div>
+<script src='js_/fish.js'></script>
+<style>
+	@media only screen and (max-width: 1000px) {
+		#sidebar_search_box input[type=text] {
+			width: calc(100% - 24px)
+		}
+	}
+</style>
+
+<!--音乐，只在PC端宽度>1000px时显示-->
+<link rel="stylesheet" href="./css_/APlayer.min.css">
+<div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="310970433" data-server="netease"
+	data-type="playlist" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div>
+<script src="./js_/APlayer.min.js"></script>
+<script src="./js_/Meting.min.js"></script>
+
+<!--自动播放-->
+<script>
+	let ref = setInterval(function () {
+		isaplay();
+	}, 2000);
+	function isaplay() {
+		if ($(".aplayer-play").length == 1) {
+			$(".aplayer-play").click()
+			clearInterval(ref);
+		}
+	}
+</script>
+
+<!-- <script src="./js_/vendors.js"></script>
+<script src="./js_/js_bg.js"></script> -->
+
+</html>
